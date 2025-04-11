@@ -1,0 +1,13 @@
+Environment: Python 3.8.20
+
+if you using `pip install dlib` and get the error:
+Failed to build dlib
+ERROR: ERROR: Failed to build installable wheels for some pyproject.toml based projects (dlib)
+
+you can consider:
+https://stackoverflow.com/questions/76629574/error-could-not-build-wheels-for-dlib-which-is-required-to-install-pyproject
+
+1. go to the github repo 
+2. download the corresponding file
+3. using the command. 
+EX: python -m pip install dlib-19.22.99-cp38-cp38-win_amd64.whl
